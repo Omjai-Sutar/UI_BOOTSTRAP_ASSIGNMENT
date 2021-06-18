@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mn-logo img {
+    margin: 6px 10px 0 20px;
+    margin: 12px 14px 0;
+}
+
+#profilephoto{
+    max-width:90px;
+  height: 90px;  
+  border-radius: 50%;
+  margin-top: -90px;
+}
+
+
+span#myprofilebar {
+  display: block;
+  background: #003d63;
+  padding: 1% 12%;
+  font-size: 20px;
+  color: #fff;}
+  
+
+ .title-card{
+   font-weight: 500;
+   
+ } 
+
+  .form-group{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: block;
+    background-color: rgb(177, 223, 236);
+    margin-top: 20px;
+    height: 50px;
+    width: 81%;
+    margin-left:110px ;   
+    opacity: .4;
+}
+
+  .div1{
+      background-color: navy;
+      color: white;
+      font-size: 10px;
+      height: 20px;
+     padding-top: 3px;
+     padding-left: 10px;
+  }
+    .column {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+    margin-left: 80px;
+    height: auto;
+  }
+  
+  .row {
+      margin: 0 -5px;
+      padding-top: 10px;
+}
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+    height: 400px;
+    margin-top: 40px;
+  }
+  
+  .card-row-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+    height: 200px;
+    
+  }
+  
+  #oragProfile{
+  max-width:30px;
+  height: 30px;  
+  border-radius: 50%;
+  margin-left: 40px;
+  }
+
+  #org_names{
+    font-size: .8em;
+    font-weight: 20px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+  }
+}
+
+p,li{
+
+ font-size: .7em;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.letter{
+    color: rgb(80, 78, 78);
+}
+.mail{
+    color: rgb(32, 90, 197);
+}
+.title-card{
+   font-size: 10px; 
+}
+
+#letter{
+    color: rgb(124, 116, 116);
+    font-size: 7px;
+}
+
+.column-dis{
+    float: left;
+    margin-top: 20px;
+    margin-left: 105px;
+    padding: 0 10px;
+    
+}
+
+.card-dis{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color:orange;
+    height: 300px;
+    opacity: 30%;
+    height: 90px;
+    width: 88%;
+    font-size: 7px;
+    color: black;
+    padding-top: 30px;
+    font-weight: 500;
+   
+}
+
+footer{
+background-color: #021523;
+margin-top: 10px;
+line-height: 1.5;
+font-family: 'Open Sans',sans-serif;
+cursor: default;
+box-sizing: border-box;
+background-color: #021523;
+text-align: center;
+color: white;
+padding: 16px 0;
+font-size: 14px;
+position: relative;
+bottom: 0;
+
+}
